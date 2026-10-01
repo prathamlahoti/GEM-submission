@@ -1,0 +1,8 @@
+# Source data and generated rerun files are never part of this repository.
+*.dta
+model_input.csv
+.r-lib/
+analysis/runtime/
+**/rerun_output/
+**/rerun_console.log
+*.log
