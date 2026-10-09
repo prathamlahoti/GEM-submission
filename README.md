@@ -22,3 +22,7 @@ Stata starts PowerShell with `winexec` and then waits for a success or failure m
 Objective 4 excludes fear of failure from its own predictors. Objective 5 combines `EXIT_ENT` and `exit_ent` and excludes duplicate outcome predictor `discent`. IV+CV+NES adds all twelve NES variables to the ten original controls. If you run a NES case after its matching IV+CV case, the code checks held-out row IDs and produces a comparison table. A NES case can run alone using the same fixed split seed.
 
 **Requirements:** Windows PowerShell, Stata, R and the supplied harmonized data. This folder is a reproducible code package, not a claim that code can run without the licensed source data or installed model packages. Use the case PDF for the exact saved study result; rerunning with a different environment can yield small numeric differences.
+
+## Objective 1 tables and figures
+
+The verified combined report is [`reporting/Objective1_Complete_Results.pdf`](reporting/Objective1_Complete_Results.pdf). The code that generated its six main tables, two appendix tables, and four figures is in [`reporting/generate_tables_figures.py`](reporting/generate_tables_figures.py). See [`reporting/README.md`](reporting/README.md) for the saved-output inputs and commands. The large batch outputs and respondent-level data are intentionally not included.

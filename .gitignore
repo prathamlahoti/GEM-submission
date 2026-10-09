@@ -6,3 +6,4 @@ analysis/runtime/
 **/rerun_output/
 **/rerun_console.log
 *.log
+reporting/generated/
