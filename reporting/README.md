@@ -18,7 +18,7 @@ Install Python with `pandas`, `numpy`, and `matplotlib`. Install either `pdfunit
 From the repository root:
 
 ```powershell
-python reporting/generate_tables_figures.py --batch-dir "C:\path\to\analysis_output\objective1_batch_20260927"
+python generate_tables_figures.py --batch-dir "C:\path\to\analysis_output\objective1_batch_20260927"
 ```
 
 If `pdflatex` is not on `PATH`, add `--pdflatex "C:\path\to\pdflatex.exe"`. Add `--skip-compile` to generate the LaTeX table source and figure PDFs without compiling the table and full-report PDFs. Use `--output-dir` to choose a different destination. The default is `reporting/generated/`, which Git ignores.

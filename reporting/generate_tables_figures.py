@@ -1,7 +1,7 @@
 """Generate the Objective 1 tables, figures, and combined report from saved outputs.
 
 Example:
-    python reporting/generate_tables_figures.py \
+    python generate_tables_figures.py \
         --batch-dir C:/path/to/analysis_output/objective1_batch_20260927
 
 This does not fit or rerun any machine-learning model.

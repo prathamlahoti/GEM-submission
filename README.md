@@ -25,4 +25,4 @@ Objective 4 excludes fear of failure from its own predictors. Objective 5 combin
 
 ## Objective 1 tables and figures
 
-The verified combined report is [`reporting/Objective1_Complete_Results.pdf`](reporting/Objective1_Complete_Results.pdf). The code that generated its six main tables, two appendix tables, and four figures is in [`reporting/generate_tables_figures.py`](reporting/generate_tables_figures.py). See [`reporting/README.md`](reporting/README.md) for the saved-output inputs and commands. The large batch outputs and respondent-level data are intentionally not included.
+The verified combined report is [`reporting/Objective1_Complete_Results.pdf`](reporting/Objective1_Complete_Results.pdf). Run [`generate_tables_figures.py`](generate_tables_figures.py) from this repository root to regenerate its six main tables, two appendix tables, and four figures. Its helper scripts and instructions are in [`reporting/`](reporting/README.md). The large batch outputs and respondent-level data are intentionally not included.
