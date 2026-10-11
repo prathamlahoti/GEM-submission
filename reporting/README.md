@@ -34,3 +34,5 @@ The original batch directories are intentionally excluded from Git because they 
 ```powershell
 python GEM_Submission/generate_objectives23_reports.py --batch-root analysis_output
 ```
+
+The journal-style Word reports use the same saved tables and underlying batch outputs. From the GEM workspace, run `python GEM_Submission/generate_objectives23_word.py` with `pandas`, `numpy`, `matplotlib`, Pillow, and `python-docx` installed. The Word figures are redrawn from saved coordinates and importance CSVs; the documents are built from saved result CSVs. No classifier is refitted.

@@ -7,3 +7,4 @@ analysis/runtime/
 **/rerun_console.log
 *.log
 reporting/generated/
+__pycache__/
