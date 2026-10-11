@@ -1,0 +1,37 @@
+Variable,Role,Global,Global_missing,India,India_missing
+suskill_2015_2022,independent,53.1%,7.9%,61.4%,9.3%
+opportunity_perception,independent,45.9%,18.1%,60.4%,10.4%
+fearfail_2015_2022,independent,43.7%,0.6%,44.0%,1.0%
+knowing_entrepreneur,independent,44.2%,2.3%,44.8%,13.1%
+entrepreneurial_intention,independent,2 categories,23.2%,2 categories,20.0%
+media_coverage,independent,62.0%,20.9%,63.3%,11.6%
+discent,independent,4.6%,0.9%,5.2%,1.6%
+busang,independent,6.1%,0.8%,4.3%,2.1%
+established_business_owner,independent,7.8%,0.0%,6.6%,0.0%
+good_career_choice,independent,1.25 (0.93),14.3%,1.32 (0.91),6.5%
+ease_start_business,independent,43.7%,22.2%,59.2%,11.8%
+high_status,independent,69.8%,22.8%,70.6%,11.6%
+social_enterprise,independent,39.4%,32.4%,58.0%,13.2%
+prosperity_index_score,independent,67.92 (10.53),1.0%,52.27 (1.44),0.0%
+safety__security,independent,75.68 (15.11),1.0%,46.96 (3.94),0.0%
+personal_freedom,independent,69.55 (20.07),1.0%,54.00 (3.50),0.0%
+governance,independent,63.51 (15.28),1.0%,58.39 (1.62),0.0%
+social_capital,independent,58.35 (11.13),1.0%,43.70 (3.69),0.0%
+investment_environment,independent,66.71 (12.63),1.0%,54.87 (2.04),0.0%
+enterprise_conditions,independent,63.96 (10.82),1.0%,62.12 (1.90),0.0%
+market_access__infrastructure,independent,65.78 (11.37),1.0%,51.05 (3.02),0.0%
+economic_quality,independent,60.50 (10.43),1.0%,48.96 (0.69),0.0%
+living_conditions,independent,83.52 (12.29),1.0%,53.02 (2.69),0.0%
+health,independent,75.44 (6.23),1.0%,62.84 (2.23),0.0%
+education,independent,71.78 (13.11),1.0%,49.98 (0.81),0.0%
+natural_environment,independent,60.27 (9.08),1.0%,41.35 (0.44),0.0%
+yrsurv,control,8 categories,0.0%,8 categories,0.0%
+age,control,41.50 (14.53),2.8%,35.71 (12.20),0.0%
+gender,control,2 categories,0.0%,2 categories,0.0%
+education_attainment,control,5 categories,1.6%,5 categories,0.5%
+household_income,control,3 categories,18.9%,3 categories,6.1%
+hhsize,control,74.55 (81460.96),1.8%,3.97 (1.66),1.1%
+occupation_status,control,7 categories,1.8%,7 categories,4.5%
+gdp_per_capita_ppp,control,35593.44 (21374.64),0.0%,6356.76 (856.84),0.0%
+population_totalthousands,control,96167409.78 (259900716.69),0.0%,1363227202.26 (32494678.65),0.0%
+gdp_growth,control,2.41 (4.02),0.0%,5.63 (4.43),0.0%

@@ -1,0 +1,61 @@
+Sample,Target,Model,TP,FP,TN,FN
+Global,TEA,Logistic Regression,"27,368","4,865","232,827","3,516"
+Global,TEA,Lasso,"27,384","4,863","232,829","3,500"
+Global,TEA,Ridge,"27,228","4,906","232,786","3,656"
+Global,TEA,Elastic Net,"27,377","4,851","232,841","3,507"
+Global,TEA,Naive Bayes,"24,782","20,882","216,810","6,102"
+Global,TEA,Decision Tree,"26,428","4,282","233,410","4,456"
+Global,TEA,XGBoost,"27,402","3,631","234,061","3,482"
+Global,TEA,CatBoost,"27,348","3,730","233,962","3,536"
+Global,TEA,Random Forest,"28,051","4,276","233,416","2,833"
+Global,TEA,H2O GBM,"27,472","4,731","232,961","3,412"
+Global,OME,Logistic Regression,"16,972","12,197","236,362","3,045"
+Global,OME,Lasso,"16,972","12,234","236,325","3,045"
+Global,OME,Ridge,"16,994","12,182","236,377","3,023"
+Global,OME,Elastic Net,"16,969","12,220","236,339","3,048"
+Global,OME,Naive Bayes,"14,488","22,770","225,789","5,529"
+Global,OME,Decision Tree,"15,777","10,922","237,637","4,240"
+Global,OME,XGBoost,"17,425","11,729","236,830","2,592"
+Global,OME,CatBoost,"16,545","9,930","238,629","3,472"
+Global,OME,Random Forest,"16,636","9,918","238,641","3,381"
+Global,OME,H2O GBM,"17,174","11,912","236,647","2,843"
+Global,NME,Logistic Regression,"9,366","6,749","247,841","4,620"
+Global,NME,Lasso,"9,382","6,747","247,843","4,604"
+Global,NME,Ridge,"10,097","8,583","246,007","3,889"
+Global,NME,Elastic Net,"9,378","6,734","247,856","4,608"
+Global,NME,Naive Bayes,"10,134","24,706","229,884","3,852"
+Global,NME,Decision Tree,"8,511","4,924","249,666","5,475"
+Global,NME,XGBoost,"9,911","6,092","248,498","4,075"
+Global,NME,CatBoost,"9,898","6,169","248,421","4,088"
+Global,NME,Random Forest,"9,963","5,994","248,596","4,023"
+Global,NME,H2O GBM,"9,704","6,278","248,312","4,282"
+India,TEA,Logistic Regression,604,47,"4,826",33
+India,TEA,Lasso,604,54,"4,819",33
+India,TEA,Ridge,612,53,"4,820",25
+India,TEA,Elastic Net,605,52,"4,821",32
+India,TEA,Naive Bayes,525,289,"4,584",112
+India,TEA,Decision Tree,609,56,"4,817",28
+India,TEA,XGBoost,606,50,"4,823",31
+India,TEA,CatBoost,610,50,"4,823",27
+India,TEA,Random Forest,602,48,"4,825",35
+India,TEA,H2O GBM,615,57,"4,816",22
+India,OME,Logistic Regression,390,164,"4,913",43
+India,OME,Lasso,383,158,"4,919",50
+India,OME,Ridge,388,160,"4,917",45
+India,OME,Elastic Net,364,142,"4,935",69
+India,OME,Naive Bayes,283,239,"4,838",150
+India,OME,Decision Tree,366,174,"4,903",67
+India,OME,XGBoost,353,132,"4,945",80
+India,OME,CatBoost,351,135,"4,942",82
+India,OME,Random Forest,370,151,"4,926",63
+India,OME,H2O GBM,348,124,"4,953",85
+India,NME,Logistic Regression,286,101,"5,040",83
+India,NME,Lasso,306,135,"5,006",63
+India,NME,Ridge,288,104,"5,037",81
+India,NME,Elastic Net,309,135,"5,006",60
+India,NME,Naive Bayes,210,208,"4,933",159
+India,NME,Decision Tree,270,84,"5,057",99
+India,NME,XGBoost,294,90,"5,051",75
+India,NME,CatBoost,305,130,"5,011",64
+India,NME,Random Forest,312,141,"5,000",57
+India,NME,H2O GBM,288,97,"5,044",81

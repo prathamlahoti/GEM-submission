@@ -24,3 +24,13 @@ python generate_tables_figures.py --batch-dir "C:\path\to\analysis_output\object
 If `pdflatex` is not on `PATH`, add `--pdflatex "C:\path\to\pdflatex.exe"`. Add `--skip-compile` to generate the LaTeX table source and figure PDFs without compiling the table and full-report PDFs. Use `--output-dir` to choose a different destination. The default is `reporting/generated/`, which Git ignores.
 
 The output has 6 main tables, 2 appendix tables, 4 vector figures, and the combined `objective1_complete/Objective1_Complete_Results.pdf`. The main results use IV+CV for Global and India across TEA, OME, and NME. The comparison table and figure show IV versus IV+CV.
+
+## Objective 2 and 3 reports
+
+`generate_objectives23_reports.py` at the repository root reads the completed `objective2_batch_20260928` and `objective3_batch_20260928` directories. It checks all 120 model statuses per objective and verifies matched IV and IV+CV held-out row IDs. It then writes one PDF per objective plus the seven underlying tables as CSV and five figures as PNG. Every table and figure has Global and India interpretation paragraphs. It never refits a model.
+
+The original batch directories are intentionally excluded from Git because they contain large model and respondent-level files. To regenerate, install `pandas`, `numpy`, `matplotlib`, `reportlab`, and Pillow, then run from the GEM workspace:
+
+```powershell
+python GEM_Submission/generate_objectives23_reports.py --batch-root analysis_output
+```

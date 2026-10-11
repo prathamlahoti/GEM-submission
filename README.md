@@ -26,3 +26,9 @@ Objective 4 excludes fear of failure from its own predictors. Objective 5 combin
 ## Objective 1 tables and figures
 
 The verified combined report is [`reporting/Objective1_Complete_Results.pdf`](reporting/Objective1_Complete_Results.pdf). Run [`generate_tables_figures.py`](generate_tables_figures.py) from this repository root to regenerate its six main tables, two appendix tables, and four figures. Its helper scripts and instructions are in [`reporting/`](reporting/README.md). The large batch outputs and respondent-level data are intentionally not included.
+
+## Objectives 2 and 3 tables, figures and interpretation
+
+The complete reports are [`Objective 2`](reporting/objective2_complete/Objective2_Complete_Results_and_Interpretation.pdf) and [`Objective 3`](reporting/objective3_complete/Objective3_Complete_Results_and_Interpretation.pdf). Each has seven tables, five figures and a Global and India interpretation for every item. CSV tables and PNG figures are in the corresponding report folder.
+
+[`generate_objectives23_reports.py`](generate_objectives23_reports.py) regenerates these reports from the original completed batch outputs without refitting models. The batch outputs are not in this repository. From the workspace containing `analysis_output`, run `python GEM_Submission/generate_objectives23_reports.py --batch-root analysis_output`. The script requires `pandas`, `numpy`, `matplotlib`, `reportlab` and Pillow.

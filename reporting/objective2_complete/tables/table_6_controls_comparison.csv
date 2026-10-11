@@ -1,0 +1,61 @@
+Sample,Target,Model,PR_IV,PR_IV_CV,Delta_PR,Delta_ROC,Delta_F1
+Global,TEA,Logistic Regression,0.903,0.934,+0.031,+0.003,+0.018
+Global,TEA,Lasso,0.903,0.935,+0.032,+0.003,+0.019
+Global,TEA,Ridge,0.899,0.931,+0.032,+0.003,+0.018
+Global,TEA,Elastic Net,0.903,0.935,+0.031,+0.003,+0.019
+Global,TEA,Naive Bayes,0.418,0.437,+0.019,+0.006,+0.019
+Global,TEA,Decision Tree,0.849,0.895,+0.045,+0.003,+0.017
+Global,TEA,XGBoost,0.930,0.953,+0.022,+0.002,+0.021
+Global,TEA,CatBoost,0.928,0.951,+0.023,+0.002,+0.019
+Global,TEA,Random Forest,0.929,0.952,+0.023,+0.002,+0.022
+Global,TEA,H2O GBM,0.918,0.940,+0.022,+0.002,+0.015
+Global,OME,Logistic Regression,0.643,0.683,+0.040,+0.003,+0.015
+Global,OME,Lasso,0.643,0.684,+0.041,+0.003,+0.014
+Global,OME,Ridge,0.640,0.675,+0.035,+0.003,+0.017
+Global,OME,Elastic Net,0.643,0.684,+0.041,+0.003,+0.015
+Global,OME,Naive Bayes,0.277,0.290,+0.013,+0.006,+0.018
+Global,OME,Decision Tree,0.600,0.626,+0.026,+0.003,+0.028
+Global,OME,XGBoost,0.709,0.736,+0.027,+0.002,+0.017
+Global,OME,CatBoost,0.701,0.732,+0.031,+0.002,+0.015
+Global,OME,Random Forest,0.712,0.744,+0.033,+0.003,+0.019
+Global,OME,H2O GBM,0.683,0.714,+0.031,+0.002,+0.013
+Global,NME,Logistic Regression,0.552,0.659,+0.107,+0.007,+0.059
+Global,NME,Lasso,0.558,0.661,+0.103,+0.007,+0.062
+Global,NME,Ridge,0.515,0.642,+0.127,+0.008,+0.062
+Global,NME,Elastic Net,0.558,0.661,+0.103,+0.007,+0.061
+Global,NME,Naive Bayes,0.209,0.227,+0.019,+0.011,+0.022
+Global,NME,Decision Tree,0.578,0.588,+0.010,+0.003,+0.071
+Global,NME,XGBoost,0.679,0.715,+0.037,+0.003,+0.032
+Global,NME,CatBoost,0.671,0.713,+0.041,+0.004,+0.037
+Global,NME,Random Forest,0.679,0.716,+0.037,+0.003,+0.031
+Global,NME,H2O GBM,0.659,0.691,+0.032,+0.003,+0.031
+India,TEA,Logistic Regression,0.971,0.977,+0.006,+0.000,+0.004
+India,TEA,Lasso,0.971,0.975,+0.004,+0.000,+0.010
+India,TEA,Ridge,0.969,0.975,+0.006,+0.000,+0.008
+India,TEA,Elastic Net,0.971,0.975,+0.004,+0.000,+0.003
+India,TEA,Naive Bayes,0.676,0.681,+0.006,+0.003,-0.004
+India,TEA,Decision Tree,0.921,0.920,-0.001,-0.000,+0.001
+India,TEA,XGBoost,0.975,0.981,+0.006,+0.000,+0.008
+India,TEA,CatBoost,0.978,0.977,-0.000,+0.000,+0.005
+India,TEA,Random Forest,0.972,0.978,+0.006,+0.000,+0.002
+India,TEA,H2O GBM,0.974,0.977,+0.003,+0.000,+0.004
+India,OME,Logistic Regression,0.833,0.844,+0.011,+0.001,+0.029
+India,OME,Lasso,0.826,0.845,+0.019,+0.001,+0.020
+India,OME,Ridge,0.826,0.846,+0.020,+0.001,+0.040
+India,OME,Elastic Net,0.834,0.839,+0.005,+0.000,+0.023
+India,OME,Naive Bayes,0.564,0.561,-0.003,+0.005,-0.008
+India,OME,Decision Tree,0.812,0.789,-0.023,-0.001,-0.020
+India,OME,XGBoost,0.839,0.846,+0.007,+0.000,-0.003
+India,OME,CatBoost,0.848,0.852,+0.005,+0.000,-0.034
+India,OME,Random Forest,0.854,0.858,+0.004,+0.000,-0.006
+India,OME,H2O GBM,0.845,0.856,+0.012,+0.001,+0.029
+India,NME,Logistic Regression,0.796,0.803,+0.006,+0.000,+0.013
+India,NME,Lasso,0.803,0.805,+0.002,+0.000,-0.004
+India,NME,Ridge,0.779,0.808,+0.029,+0.001,+0.023
+India,NME,Elastic Net,0.803,0.804,+0.001,+0.000,-0.005
+India,NME,Naive Bayes,0.480,0.461,-0.020,-0.010,-0.018
+India,NME,Decision Tree,0.745,0.765,+0.020,+0.001,-0.014
+India,NME,XGBoost,0.823,0.809,-0.013,-0.001,-0.014
+India,NME,CatBoost,0.824,0.824,-0.000,-0.000,-0.014
+India,NME,Random Forest,0.812,0.818,+0.005,-0.000,-0.025
+India,NME,H2O GBM,0.823,0.830,+0.007,-0.000,-0.012

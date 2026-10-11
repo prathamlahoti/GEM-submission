@@ -1,0 +1,31 @@
+Variable,Role,Global,Global_missing,India,India_missing
+suskill_2015_2022,independent,53.1%,7.9%,61.4%,9.3%
+opportunity_perception,independent,45.9%,18.1%,60.4%,10.4%
+fearfail_2015_2022,independent,43.7%,0.6%,44.0%,1.0%
+knowing_entrepreneur,independent,44.2%,2.3%,44.8%,13.1%
+entrepreneurial_intention,independent,2 categories,23.2%,2 categories,20.0%
+media_coverage,independent,62.0%,20.9%,63.3%,11.6%
+discent,independent,4.6%,0.9%,5.2%,1.6%
+busang,independent,6.1%,0.8%,4.3%,2.1%
+established_business_owner,independent,7.8%,0.0%,6.6%,0.0%
+good_career_choice,independent,1.25 (0.93),14.3%,1.32 (0.91),6.5%
+ease_start_business,independent,43.7%,22.2%,59.2%,11.8%
+high_status,independent,69.8%,22.8%,70.6%,11.6%
+social_enterprise,independent,39.4%,32.4%,58.0%,13.2%
+EFW,independent,7.25 (0.82),0.9%,6.51 (0.11),0.0%
+EFW_quartile,independent,4 categories,0.9%,1 categories,0.0%
+EFW_government,independent,6.42 (1.01),0.9%,7.53 (0.14),0.0%
+EFW_legal,independent,6.52 (1.51),0.9%,5.32 (0.09),0.0%
+EFW_money,independent,8.67 (1.12),0.9%,7.81 (0.19),0.0%
+EFW_trade,independent,7.87 (1.13),0.9%,5.99 (0.36),0.0%
+EFW_regulation,independent,6.78 (0.87),0.9%,5.93 (0.06),0.0%
+yrsurv,control,8 categories,0.0%,8 categories,0.0%
+age,control,41.50 (14.53),2.8%,35.71 (12.20),0.0%
+gender,control,2 categories,0.0%,2 categories,0.0%
+education_attainment,control,5 categories,1.6%,5 categories,0.5%
+household_income,control,3 categories,18.9%,3 categories,6.1%
+hhsize,control,74.55 (81460.96),1.8%,3.97 (1.66),1.1%
+occupation_status,control,7 categories,1.8%,7 categories,4.5%
+gdp_per_capita_ppp,control,35593.44 (21374.64),0.0%,6356.76 (856.84),0.0%
+population_totalthousands,control,96167409.78 (259900716.69),0.0%,1363227202.26 (32494678.65),0.0%
+gdp_growth,control,2.41 (4.02),0.0%,5.63 (4.43),0.0%
