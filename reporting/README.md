@@ -36,3 +36,7 @@ python GEM_Submission/generate_objectives23_reports.py --batch-root analysis_out
 ```
 
 The journal-style Word reports use the same saved tables and underlying batch outputs. From the GEM workspace, run `python GEM_Submission/generate_objectives23_word.py` with `pandas`, `numpy`, `matplotlib`, Pillow, and `python-docx` installed. The Word figures are redrawn from saved coordinates and importance CSVs; the documents are built from saved result CSVs. No classifier is refitted.
+
+## Separate India and Global Word studies for Objectives 1–3
+
+The [`split_studies`](split_studies/) directory contains six sample-specific Word studies. Each study has its own descriptive and performance tables, sample-specific figures, two-paragraph interpretations of each main table and figure, discussion, conclusion, and full ten-model supplementary results. To regenerate them from completed local batch outputs, run `python GEM_Submission/reporting/generate_six_studies.py` from the GEM workspace. The script checks batch completion and matching held-out records, and does not refit classifiers.
